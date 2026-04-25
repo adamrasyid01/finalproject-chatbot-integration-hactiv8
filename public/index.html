@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bakuin</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <div class="top-bar">
+      <div>
+        <p class="eyebrow">AI Language Assistant</p>
+        <h1>Bakuin</h1>
+      </div>
+    </div>
+    <section class="hero">
+      <p>
+        Chatbot ini dirancang untuk menilai apakah sebuah kata atau frasa termasuk
+        <strong>baku</strong> atau <strong>tidak baku</strong>, lalu memberi bentuk
+        penulisan yang lebih tepat sesuai kaidah ejaan bahasa Indonesia.
+      </p>
+      <div class="chips" id="suggestion-chips">
+        <button type="button" class="chip">ijin</button>
+        <button type="button" class="chip">praktek atau praktik?</button>
+        <button type="button" class="chip">analisa</button>
+        <button type="button" class="chip">Tolong cek: Saya sudah menganalisa data ini</button>
+      </div>
+    </section>
+    <div id="chat-box" class="chat-box"></div>
+    <form id="chat-form">
+      <input type="text" id="user-input" placeholder="Contoh: ijin, praktek atau praktik?, atau masukkan satu kalimat" autocomplete="off" required />
+      <button type="submit">Periksa</button>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
