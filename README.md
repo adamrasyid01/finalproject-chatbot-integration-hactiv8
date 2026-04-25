@@ -132,7 +132,7 @@ GEMINI_API_KEY=masukkan_api_key_anda
 ### 3. Jalankan server
 
 ```bash
-npm start
+node index.js
 ```
 
 ### 4. Buka di browser
